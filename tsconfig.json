@@ -13,3 +13,13 @@
 		"./deps/**/*"
 	]
 }
+
+# install deps
+npm install
+
+# type-check (no emit)
+npm run ts-check
+
+# optional checks/tests
+npm run lint
+npm test
